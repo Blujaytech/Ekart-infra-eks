@@ -1,6 +1,6 @@
 module "eks" {
-  source = "git clone https://github.com/terraform-aws-modules/terraform-aws-eks.git"
-
+  source = "terraform-aws-modules/eks/aws"
+  version = "~> 21.0"
   project     = var.project
   environment = var.environment
 
