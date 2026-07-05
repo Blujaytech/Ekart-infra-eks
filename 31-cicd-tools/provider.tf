@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "buckets/blujaytech-devops-demo1" # Replace with your unique bucket name
+    bucket  = "blujaytech-devops-demo1" # Replace with your unique bucket name
     key     = "terraform-eks-jenkins"
     region  = "us-east-1"
     encrypt = true
