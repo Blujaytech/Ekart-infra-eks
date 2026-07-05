@@ -7,11 +7,11 @@ variable "environment" {
 }
 
 variable "zone_id" {
-    default = "Z04311461UOYT2X1S4LOM"
+    default = "Z00916842MCDX0S5FWPWY"
 }
 
 variable "domain_name" {
-    default = "daws88s.online"
+    default = "hariawsdevops.online"
 }
 
 variable "sonar" {
