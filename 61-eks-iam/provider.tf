@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "remote-state-aws-88s-dev"
+    bucket       = "blujaytech-devops-demo1"
     key          = "terraform-eks-iam"
     region       = "us-east-1"
     encrypt      = true
